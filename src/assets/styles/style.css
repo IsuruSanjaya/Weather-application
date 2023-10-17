@@ -1,0 +1,56 @@
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("D:\MyProject\LooseLab Intern\weather-application\src\assets\images\weather.jpg");
+    background-size: cover;
+}
+
+.card {
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    border-color: black;
+    border-radius: 5px;
+    border-style: double;
+    background-image: url("D:\MyProject\LooseLab Intern\weather-application\src\assets\images\weather.jpg");
+    background-size: cover;
+}
+
+.cardContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.loginContent {
+    display: flex;
+}
+
+.rightContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-form {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
