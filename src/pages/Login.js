@@ -25,16 +25,16 @@ export default function Login() {
 
     return (
         <div className="cardContainer">
-            <Card className="card">
+            <Card className="card" style={{ backgroundColor: '#f0f0f0', width: '1000px' }}>
                 <CardContent className="cardContent" sx={{ fontWeight: 'bold' }}>
                     <div className="loginContent">
                         <div className="rightContent">
                             {loggedIn ? (
-                                <Typography variant="h5" className="heading-login bold-text">
+                                <Typography variant="h5" className="heading-login bold-text" style={{ color: 'green' }}>
                                     Welcome, Admin!
                                 </Typography>
                             ) : (
-                                <Card className="card-form">
+                                <Card className="card-form" style={{ backgroundColor: '#fff' }}>
                                     <CardContent className="centered-content">
                                         <Typography gutterBottom variant="h5" component="div" className="heading-login bold-text">
                                             Login
@@ -61,7 +61,7 @@ export default function Login() {
                                             />
                                         </div>
                                         <div style={{ padding: 10 }}>
-                                            <Button variant="contained" onClick={handleLogin}>
+                                            <Button variant="contained" onClick={handleLogin} style={{ backgroundColor: 'blue', color: '#fff' }}>
                                                 Login
                                             </Button>
                                         </div>
