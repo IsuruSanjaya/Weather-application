@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
+          
           <Route path="/home" element={<Home />} />
           <Route path="/login" index element={<Login />} />
 
