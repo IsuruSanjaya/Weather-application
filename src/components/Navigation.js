@@ -143,7 +143,7 @@ export default function PrimarySearchAppBar() {
     const handleLogout = () => {
         // Perform the logout action
         // For example, clear user data or update your authentication state
-        navigate('/login'); // Redirect to the login page after logout
+        navigate('/'); // Redirect to the login page after logout
     };
 
     return (
