@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url("D:\MyProject\LooseLab Intern\weather-application\src\assets\images\weather.jpg");
+    background-image: url("../images/weather.jpg");
     background-size: cover;
 }
 
@@ -14,7 +14,7 @@
     border-color: black;
     border-radius: 5px;
     border-style: double;
-    background-image: url("D:\MyProject\LooseLab Intern\weather-application\src\assets\images\weather.jpg");
+    background-image: url("../images/weather.jpg");
     background-size: cover;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .card-widget {
-    background-image: url("D:\MyProject\LooseLab Intern\weather-application\src\assets\images\cloud2.jpeg");
+    background-image: url("../images/cloud2.jpeg");
     background-size: cover;
 
 
@@ -71,7 +71,7 @@
 }
 
 .card-widget-top {
-    background-image: url("D:\MyProject\LooseLab Intern\weather-application\src\assets\images\cloud.jpg");
+    background-image: url("../images/cloud.jpg");
     background-size: cover;
 }
 
@@ -130,6 +130,6 @@ button:active {
 }
 
 .home-body{
-    background-image: url("D:\MyProject\LooseLab Intern\weather-application\src\assets\images\cloudblue.jpg");
+    background-image: url("../images/cloudblue.jpg");
     background-size: cover; 
 }

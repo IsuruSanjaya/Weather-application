@@ -7,9 +7,7 @@ import { CardActionArea, Icon, Paper, Grid } from '@mui/material';
 import slideimg from '../assets/images/weather.jpg';
 import Button from '@mui/material/Button';
 import TodayIcon from '@mui/icons-material/Today';
-import InfoIcon from '@mui/icons-material/Info';
 import PrimarySearchAppBar from '../components/Navigation';
-import ThermostatIcon from '@mui/icons-material/Thermostat';
 import axios from 'axios';
 
 const Home = (icon) => {
@@ -76,9 +74,7 @@ const Home = (icon) => {
 
     return (
         <>
-
             <div className='home-body'>
-
                 <PrimarySearchAppBar />
                 <Card sx={{ maxWidth: '100%', height: 300, position: 'relative' }}>
                     <CardActionArea>
@@ -202,7 +198,6 @@ const Home = (icon) => {
                                             <CardActionArea>
                                                 <CardContent>
                                                     <Typography variant="h6" color="textPrimary" style={{ display: 'flex', alignItems: 'center' }}>
-
                                                         <TodayIcon style={{ marginLeft: '10px' }} />{`${day}/${month}`}
                                                     </Typography>
 
@@ -211,6 +206,7 @@ const Home = (icon) => {
                                                     </Typography>
 
                                                     <hr />
+
                                                     <Grid container spacing={2}>
                                                         <Grid item xs={6}>
                                                             <Typography variant="body1" color="textPrimary">
@@ -223,8 +219,8 @@ const Home = (icon) => {
                                                             </Typography>
                                                         </Grid>
                                                     </Grid>
+                                                    
                                                     <hr />
-
                                                     <Typography variant="body1" color="textPrimary">
                                                         Humidity: {dayData.main.humidity}%
                                                     </Typography>
